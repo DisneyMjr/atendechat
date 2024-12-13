@@ -33,7 +33,7 @@ module.exports = {
 
       if (!companyExists) {
         await queryInterface.bulkInsert("Companies", [{
-          name: "AutoAtende",
+          name: "ConectaMaisZap",
           planId: 1,
           createdAt: new Date(),
           updatedAt: new Date()
